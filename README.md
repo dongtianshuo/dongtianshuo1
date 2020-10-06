@@ -6,9 +6,9 @@
 ##### 学会并使用this关键字
 ##### 学会并使用访问权限
 ### 二、实验要求：
-##### 1.CPU 类要求getSpeed返回 spee d的值,要求 setSpeed（int m )方法将参数m的值赋值给 speed；
-##### 2.HardDisk 类要求getAmount返回 amount 的值,要求 setAmount（intm )方法将参数 m 的值赋值给amount；
-##### 3.PC 类要求 setCPU（CPU c)将参数 c 的值赋值给cpu，要求 setHardDisk ( HardDisk h 方法将参数 h 的值赋值给 HD .
+##### 1.CPU 类要求getSpeed返回 speed的值,要求 setSpeed（int m )方法将参数m的值赋值给 speed；
+##### 2.HardDisk 类要求getAmount返回 amount 的值,要求 setAmount（int m)方法将参数 m 的值赋值给amount；
+##### 3.PC 类要求 setCPU（CPU c)将参数 c 的值赋值给cpu，要求 setHardDisk ( HardDisk h）方法将参数 h 的值赋值给 HD .
 ##### 4.要求 show（）的方法能显示cpu的速度和硬盘的容量。
 ##### 5.主类Tesk的要求：
 ##### (1)main 方法中创建一个 CPU 对象 cpu , cpu 将自己的 speed 设置为2200。
@@ -26,14 +26,13 @@
 
 ### 三、操作过程：
 
-##### 1.
-
-##### 2.
-##### 3.
-##### 4.
+##### 1.首先构造了4个类，CPU、HardDisk、PC、Test4个类。
+##### 2.4个类中各定义了2个构造方法，定义了两个不同的属性，使属性的类型多样化。并且使用了修饰符private。
+##### 3.在主类Test中通过创建了3个对象（cpu、disk、pc），并通过调用set将变量赋值。调用show（）方法输出。
+##### 4.调用show（）方法，通过get将变量的值输出。
 
 ### 四、核心代码：
-
+##### 这两段代码是我认为这次实验中的核心代码，它通过调用CPU与HardDisk，赋予了变量的值，体现了如何创建类和对象，类与对象的定义和使用等知识。
 ```
     CPU cpu = new CPU(2.4);
     cpu.setName("intel");
